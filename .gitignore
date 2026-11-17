@@ -1,0 +1,22 @@
+# Python environment & cache
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Firebase Credentials & Sensitive Files
+serviceAccountKey.json
+*.secret.json
+.env
+.env.*
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
